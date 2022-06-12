@@ -20,6 +20,8 @@
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
   <version>1.0.1.1</version>
+  <includeHelpInContents>true</includeHelpInContents>
+  <reportsVariantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</reportsVariantsStorage>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
