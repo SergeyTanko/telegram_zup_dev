@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f6fe0d4-95d9-448d-a8ab-c615bff6b1fc">
+  <producedTypes>
+    <objectType typeId="95dea121-66a0-44b9-b6a6-54f2938b4fb3" valueTypeId="d9d5918f-509d-4a42-84b6-709e3363cd26"/>
+    <refType typeId="73627e27-d51b-438d-a645-17003c18c257" valueTypeId="64a14e4b-3f29-487a-bce7-ff2c22f065e9"/>
+    <selectionType typeId="6ded8def-87e0-48fc-9bed-633ec267c0dc" valueTypeId="a23c2b1e-cf05-457d-a364-f8dff98d1b04"/>
+    <listType typeId="2b7b6f8b-55ac-44c4-b547-5947a49516e1" valueTypeId="14261730-26da-49d6-84d5-f3c22f7e455e"/>
+    <managerType typeId="8b121cf2-f807-40bd-84af-976bff885f25" valueTypeId="96fcdc9e-9a60-44f0-8e82-edd8ac5cd764"/>
+  </producedTypes>
+  <name>Т_МаршрутыБотов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Маршруты ботов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Т_МаршрутыБотов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Т_МаршрутыБотов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="5f1f0159-99aa-489d-ac27-1b01b19d8ab8">
+    <name>Бот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бот</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Т_Боты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fde93a03-4ba4-4925-9ab0-9b2b32dc3c91">
+    <name>ТочкаМаршрута</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точка маршрута</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

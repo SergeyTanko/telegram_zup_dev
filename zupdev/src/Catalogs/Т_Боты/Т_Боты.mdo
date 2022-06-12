@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3df5dcf-9175-4b8d-acb5-7105b9ccbb08">
+  <producedTypes>
+    <objectType typeId="1d0d6f2f-6a91-4311-8fd6-2f40212ee35a" valueTypeId="af1bfa44-ad97-4115-a1d8-bc1e412290ed"/>
+    <refType typeId="02292128-123d-4c58-b7e1-9e48380295e3" valueTypeId="bc501718-35e7-485a-a6af-108439b0bcbc"/>
+    <selectionType typeId="2672b2e9-2137-406a-9960-7197aa70e975" valueTypeId="e09b176a-1960-4d33-8760-a92fd7b0fd82"/>
+    <listType typeId="dab6b044-457c-4a9e-9b35-70a9b61c8a15" valueTypeId="5621c944-8127-4141-8cb3-39dc73b57d87"/>
+    <managerType typeId="d9568f4f-d1b2-4c64-b9a5-1c40186c3236" valueTypeId="b151f69b-1e75-4309-86f4-405eb1936e7c"/>
+  </producedTypes>
+  <name>Т_Боты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Боты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Т_Боты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Т_Боты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

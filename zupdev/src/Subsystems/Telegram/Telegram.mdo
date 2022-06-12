@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9fe649d-74ba-4f34-97d5-783fa3f06ae8">
+  <name>Telegram</name>
+  <synonym>
+    <key>ru</key>
+    <value>Telegram</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>HTTPService.T_Боты</content>
+  <content>CommonModule.Т_ОбщегоНазначенияHTTP</content>
+  <content>Role.Т_ИспользованиеБотов</content>
+  <content>Document.T_ВходящийHTTPЗапрос</content>
+  <content>Catalog.T_УчетныеЗаписиТелеграм</content>
+  <content>CommonModule.Т_Телеграм</content>
+  <content>Catalog.Т_Боты</content>
+  <content>Catalog.Т_МаршрутыБотов</content>
+  <content>InformationRegister.Т_Диалоги</content>
+</mdclass:Subsystem>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="347936b0-3238-45ff-a5d5-31fc2828992d">
+  <producedTypes>
+    <selectionType typeId="710f7906-e6bf-4098-bbb1-11360ab455a0" valueTypeId="767a4379-a866-4e05-a7c1-507351221302"/>
+    <listType typeId="5abc1f9b-186e-4983-921b-156ad049485a" valueTypeId="eb1041fb-f799-468c-a2f0-cd3b57019e2b"/>
+    <managerType typeId="16df0fe2-2c4c-4f8a-9f79-ac1010ba897b" valueTypeId="e46cb63a-f7ac-468b-9eee-fb5a2ade37ca"/>
+    <recordSetType typeId="94668e86-2fa1-4afd-8b51-a95a9addd4b1" valueTypeId="13d8c1f7-6588-444e-bdc2-f0201098f7b9"/>
+    <recordKeyType typeId="80a8439c-b775-4e8c-ba6b-11c85453efe2" valueTypeId="999a3ad1-1dca-4996-99b9-c9788978a151"/>
+    <recordType typeId="51b50411-6ca2-42f5-847c-6864900347fa" valueTypeId="08abe2a7-b937-4891-8a59-f591558b8262"/>
+    <recordManagerType typeId="4c0d4830-dd61-47ca-af49-d457bc9f8bdb" valueTypeId="9db18310-f4a8-47bc-b596-a4b312891c0d"/>
+  </producedTypes>
+  <name>Т_Диалоги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Диалоги</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="bab0f5d4-75c5-46a1-ae73-1b65be6d0222">
+    <name>message_id</name>
+    <synonym>
+      <key>ru</key>
+      <value>Message id</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9d5060ca-b71f-4150-9d8b-6ccc151d9536">
+    <name>ТочкаМаршрута</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точка маршрута</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b5963068-94d2-4165-80c8-0db1f2f517e9">
+    <name>ОтветИзЧата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответ из чата</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2f25f240-6c76-49ea-acbe-e5b9d23b2fc6">
+    <name>ОтветБота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответ бота</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="efa28233-6596-4c0d-bab8-e8da90a68808">
+    <name>Бот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бот</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Т_Боты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a55e60db-f369-47cd-9526-1bf433c3df89">
+    <name>УчетнаяЗапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная запись</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.T_УчетныеЗаписиТелеграм</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="fe5fb0a3-1d62-433d-b95e-93c9d7c709bd">
+    <name>chat_id</name>
+    <synonym>
+      <key>ru</key>
+      <value>Chat id</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>
