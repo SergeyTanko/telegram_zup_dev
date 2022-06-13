@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Telegram</value>
   </synonym>
+  <comment>3</comment>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="13060821-313e-4552-bc71-9fcf4e2bbf68"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="534c6c6c-5349-41ef-bb14-85be78893bb7"/>
   <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="04a333c0-b5d6-48c9-886e-b24a94d92823"/>

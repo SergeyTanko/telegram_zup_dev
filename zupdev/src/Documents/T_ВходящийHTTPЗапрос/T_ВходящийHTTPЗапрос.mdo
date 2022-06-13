@@ -12,6 +12,7 @@
     <key>ru</key>
     <value>Входящий HTTP Запрос</value>
   </synonym>
+  <comment>1</comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.T_ВходящийHTTPЗапрос.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
